@@ -32,12 +32,6 @@ public class Main {
       cartoes.add(c4);
       cartoes.add(c5);
 
-      c1.showMessagem(p1);
-      c2.showMessagem(p1);
-      c3.showMessagem(p1);
-      c4.showMessagem(p1);
-      c5.showMessagem(p1);
-
       for (IMensagem iMensagem : cartoes) {
          System.out.println(iMensagem.showMessagem(p1));
       }
