@@ -5,10 +5,7 @@ public class CartaoWEB {
    private String _nome;
    private String _email;
    private static final String EMAIL_REGEX = "^[^.@][A-Za-z0-9+_.-]+[^.@]@[A-Za-z0-9.-]+.[A-Za-z]+$";
-
-   public CartaoWEB() {
-   }
-
+   
    public String get_nome() {
       return this._nome;
    }

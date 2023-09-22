@@ -1,3 +1,3 @@
 public interface IMensagem {
-   String showMessagem(CartaoWEB var1);
+   String showMessagem(CartaoWEB p1);
 }
